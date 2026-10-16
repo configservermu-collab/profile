@@ -1,3 +1,6 @@
+
+/* ===== ESTILOS GENERALES ===== */
+
 body {
 	background-color: #0A0A0A;
 	color: #A6A6AB;
@@ -6,9 +9,13 @@ body {
 	line-height: 1.6;
 }
 
+/* ===== CONFIGURACIÓN GLOBAL ===== */
+
 * {
 	box-sizing: border-box;
 }
+
+/* ===== TÍTULOS Y PÁRRAFOS ===== */
 
 h1,
 h2,
@@ -16,11 +23,15 @@ p {
 	margin-top: 0;
 }
 
+/* ===== CONTENEDOR PRINCIPAL ===== */
+
 .container {
 	width: 700px;
 	max-width: calc(100% - 32px);
 	margin: 30px auto;
 }
+
+/* ===== DISEÑO DE TARJETAS ===== */
 
 .card {
 	margin-bottom: 20px;
@@ -31,9 +42,13 @@ p {
 	box-shadow: 0 10px 30px rgba(166, 166, 171, 0.08);
 }
 
+/* ===== ALINEACIÓN DEL TEXTO ===== */
+
 .text-center {
 	text-align: center;
 }
+
+/* ===== TÍTULO DEL PERFIL ===== */
 
 .profile-card h1 {
 	margin-bottom: 22px;
@@ -41,6 +56,8 @@ p {
 	font-weight: bold;
 	line-height: 1.2;
 }
+
+/* ===== IMAGEN DEL PERFIL ===== */
 
 .img-circle {
 	display: block;
@@ -51,12 +68,16 @@ p {
 	object-fit: cover;
 }
 
+/* ===== DESCRIPCIÓN DEL PERFIL ===== */
+
 .profile-card p {
 	max-width: 570px;
 	margin: 0 auto 26px;
 	font-size: 18px;
 	line-height: 1.4;
 }
+
+/* ===== BOTÓN PRINCIPAL ===== */
 
 .btn-primary {
 	display: inline-block;
@@ -74,6 +95,8 @@ p {
 	text-decoration: none;
 }
 
+/* ===== TARJETA DE REDES SOCIALES ===== */
+
 .social-card {
 	min-height: 205px;
 }
@@ -85,6 +108,16 @@ p {
 	line-height: 1.3;
 }
 
+/* ===== TARJETAS OSCURAS ===== */
+
+.card-dark {
+    background-color: #151515;
+    border: 1px solid #303030;
+    color: #D1D1D6;
+}
+
+/* ===== LISTA DE REDES SOCIALES ===== */
+
 .list-inline {
 	margin: 0;
 	padding-left: 0;
@@ -95,6 +128,8 @@ p {
 	display: inline-block;
 	padding: 0 8px;
 }
+
+/* ===== ICONOS DE REDES SOCIALES ===== */
 
 .list-inline a {
 	display: inline-flex;
@@ -115,6 +150,8 @@ p {
 	text-decoration: none;
 }
 
+/* ===== ENLACES GENERALES ===== */
+
 a {
 	color: #A6A6AB;
 	text-decoration: none;
@@ -125,26 +162,33 @@ a:hover {
 	text-decoration: underline;
 }
 
+/* ===== HOVER DE BOTONES E ICONOS ===== */
+
 .btn-primary:hover,
 .list-inline a:hover {
 	text-decoration: none;
 }
 
+/* ===== RESPONSIVE: PANTALLAS MENORES A 960PX ===== */
+
 @media (max-width: 960px) {
-  /* For a screen < 960px, this CSS will be read */
-  .container {
-    width: 700px;
-  }
+	.container {
+		width: 700px;
+	}
 }
+
+/* ===== RESPONSIVE: PANTALLAS MENORES A 720PX ===== */
+
 @media (max-width: 720px) {
-  /* For a screen < 720px, this CSS will be read */
-  .container {
-    width: 500px;
-  }
+	.container {
+		width: 500px;
+	}
 }
+
+/* ===== RESPONSIVE: PANTALLAS MENORES A 540PX ===== */
+
 @media (max-width: 540px) {
-  /* For a screen < 540px, this CSS will be read */
-  .container {
-    width: 300px;
-  }
+	.container {
+		width: 300px;
+	}
 }
